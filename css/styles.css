@@ -107,7 +107,7 @@ img{
 }
 
 header{
-border: 1px solid #ECECEC;
+border-bottom: 1px solid #ECECEC;
 }
 
 .nav .link{
@@ -197,7 +197,7 @@ border: 1px solid #ECECEC;
     
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-color: var(--background-color-dark);
     max-width: 1600px;
     margin-right: auto;
@@ -207,7 +207,7 @@ border: 1px solid #ECECEC;
 
 .hero-title{
     font-style: normal;
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -760,6 +760,9 @@ footer{
 
 .modal-close-icon{
     fill: #000000;
+    background-color: #ffffff;
 }
+
+
 
 
